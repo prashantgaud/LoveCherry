@@ -14,24 +14,19 @@
     </head>
 
     <body>
-  
-
         <div class="bg_heart">
         </div>
         
         <div class="container">
         <h2 id="text1"></h2>
         </div>
-
-        <div>
-            <audio id="myAudio">
-                <source src="Suno Na Suno Na - Chalte Chalte.mp3" type="audio/mpeg" >
+        <div class="player-container">
+            <audio id="myAudio" loop>
+                <source src="Suno Na Suno Na - Chalte Chalte.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
-              </audio>
-              
-              <button onclick="document.getElementById('myAudio').play()">Play</button>
-              <button onclick="document.getElementById('myAudio').pause()">Pause</button>
-              
+            </audio>
+            <button onclick="document.getElementById('myAudio').play()">Play</button>
+            <button onclick="document.getElementById('myAudio').pause()">Pause</button>
         </div>
           <script src="script.js" ></script>
     </body>
